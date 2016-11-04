@@ -12,6 +12,13 @@
 		BDC19F4F1DCC7F5F00876261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC19F4D1DCC7F5F00876261 /* LaunchScreen.storyboard */; };
 		BDC19F5A1DCC7F5F00876261 /* weiBo_Swift3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F591DCC7F5F00876261 /* weiBo_Swift3_0Tests.swift */; };
 		BDC19F651DCC7F5F00876261 /* weiBo_Swift3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F641DCC7F5F00876261 /* weiBo_Swift3_0UITests.swift */; };
+		BDC19F7F1DCC86D800876261 /* ASMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F7E1DCC86D800876261 /* ASMainViewController.swift */; };
+		BDC19F811DCC86F300876261 /* ASNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F801DCC86F300876261 /* ASNavigationController.swift */; };
+		BDC19F831DCC870F00876261 /* ASBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F821DCC870F00876261 /* ASBaseViewController.swift */; };
+		BDC19F851DCC872400876261 /* ASHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F841DCC872400876261 /* ASHomeViewController.swift */; };
+		BDC19F871DCC873800876261 /* ASMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F861DCC873800876261 /* ASMessageViewController.swift */; };
+		BDC19F891DCC874100876261 /* ASDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F881DCC874100876261 /* ASDiscoverViewController.swift */; };
+		BDC19F8B1DCC875000876261 /* ASProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC19F8A1DCC875000876261 /* ASProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		BDC19F601DCC7F5F00876261 /* weiBo-Swift3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weiBo-Swift3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC19F641DCC7F5F00876261 /* weiBo_Swift3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weiBo_Swift3_0UITests.swift; sourceTree = "<group>"; };
 		BDC19F661DCC7F5F00876261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC19F7E1DCC86D800876261 /* ASMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASMainViewController.swift; sourceTree = "<group>"; };
+		BDC19F801DCC86F300876261 /* ASNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASNavigationController.swift; sourceTree = "<group>"; };
+		BDC19F821DCC870F00876261 /* ASBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASBaseViewController.swift; sourceTree = "<group>"; };
+		BDC19F841DCC872400876261 /* ASHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASHomeViewController.swift; sourceTree = "<group>"; };
+		BDC19F861DCC873800876261 /* ASMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASMessageViewController.swift; sourceTree = "<group>"; };
+		BDC19F881DCC874100876261 /* ASDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDiscoverViewController.swift; sourceTree = "<group>"; };
+		BDC19F8A1DCC875000876261 /* ASProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,7 @@
 		BDC19F431DCC7F5F00876261 /* weiBo-Swift3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				BDC19F721DCC865800876261 /* Classes */,
 				BDC19F441DCC7F5F00876261 /* AppDelegate.swift */,
 				BDC19F4B1DCC7F5F00876261 /* Assets.xcassets */,
 				BDC19F4D1DCC7F5F00876261 /* LaunchScreen.storyboard */,
@@ -117,6 +132,92 @@
 				BDC19F661DCC7F5F00876261 /* Info.plist */,
 			);
 			path = "weiBo-Swift3.0UITests";
+			sourceTree = "<group>";
+		};
+		BDC19F721DCC865800876261 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F751DCC865800876261 /* View(控制器和视图) */,
+				BDC19F7B1DCC865800876261 /* ViewModel(视图模型) */,
+				BDC19F731DCC865800876261 /* Model(模型) */,
+				BDC19F741DCC865800876261 /* Tools(工具类) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BDC19F731DCC865800876261 /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		BDC19F741DCC865800876261 /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		BDC19F751DCC865800876261 /* View(控制器和视图) */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F781DCC865800876261 /* Main */,
+				BDC19F771DCC865800876261 /* Home */,
+				BDC19F791DCC865800876261 /* Message */,
+				BDC19F761DCC865800876261 /* Discover */,
+				BDC19F7A1DCC865800876261 /* Profile */,
+			);
+			path = "View(控制器和视图)";
+			sourceTree = "<group>";
+		};
+		BDC19F761DCC865800876261 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F881DCC874100876261 /* ASDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		BDC19F771DCC865800876261 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F841DCC872400876261 /* ASHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BDC19F781DCC865800876261 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F7E1DCC86D800876261 /* ASMainViewController.swift */,
+				BDC19F801DCC86F300876261 /* ASNavigationController.swift */,
+				BDC19F821DCC870F00876261 /* ASBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BDC19F791DCC865800876261 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F861DCC873800876261 /* ASMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BDC19F7A1DCC865800876261 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BDC19F8A1DCC875000876261 /* ASProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BDC19F7B1DCC865800876261 /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel(视图模型)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +358,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC19F451DCC7F5F00876261 /* AppDelegate.swift in Sources */,
+				BDC19F7F1DCC86D800876261 /* ASMainViewController.swift in Sources */,
+				BDC19F811DCC86F300876261 /* ASNavigationController.swift in Sources */,
+				BDC19F831DCC870F00876261 /* ASBaseViewController.swift in Sources */,
+				BDC19F8B1DCC875000876261 /* ASProfileViewController.swift in Sources */,
+				BDC19F871DCC873800876261 /* ASMessageViewController.swift in Sources */,
+				BDC19F891DCC874100876261 /* ASDiscoverViewController.swift in Sources */,
+				BDC19F851DCC872400876261 /* ASHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
