@@ -1,0 +1,11 @@
+//
+//  weibo-bridge.pch
+//  weiBo-Swift3.0
+//
+//  Created by Mrsong on 2016/11/4.
+//  Copyright © 2016年 AlanSong. All rights reserved.
+//
+//桥接文件 引入OC代码  最要在工程中配置路径
+
+
+#import "CZAdditions.h"
